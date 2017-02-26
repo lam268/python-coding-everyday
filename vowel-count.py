@@ -11,8 +11,10 @@
         int: numbers os vowels
 
     Author: 
+
     	yangxw163@gmail.com
     Created:
+    
     	22 Ferbary 2017
 """
 
@@ -33,5 +35,5 @@ def getCount(inputStr):
 
 if __name__ == '__main__':
 	print(getCount("abracadabra"))
-	
+
 	
