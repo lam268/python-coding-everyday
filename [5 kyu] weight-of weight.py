@@ -41,6 +41,7 @@
 """
 def order_weight(strng):
 	return ' '.join(sorted((item for item in strng.split(' ')), key = lambda x: (sum(map(int, list(x))), x)))
+
 if __name__ == '__main__':
 	print(order_weight('103 123 4444 99 2000'))
 	# for item in '103 123 4444 99 2000'.split(' '):
