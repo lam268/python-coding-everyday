@@ -1,0 +1,32 @@
+10 May 2017
+
+Command Line Title: Secure Copy files between different hosts
+OS: linux(redhat)
+Command Line:
+scp /some/local/filename username@destination_host:/some/remote/directory
+#  /some/local/filename: filename of the source file
+#              username: name of the account on the destination host
+#	   destination_host: hostname of the computer to which the source file will be copied
+#/some/remote/directory: name of the directory to which the source file will be copied 
+Tags: linux, redhat, copy, secure
+
+Command Line Title: Outputs the Total Space of a specified file or directory 
+OS: linux(redhat)
+Command Line:
+du -h -s /path/to/directory
+#-h: human readable output
+#-s: which only outputs the summary
+Tags: linux, redhat, disk, usage, space
+
+Command Line Title: Sort Output By Disk Usage Size and list specified rows
+OS: linux(redhat)
+Command Line:
+du -h /path/to/directory | sort -h | tail -n 15
+Tags: linux, redhat, disk, usage, space, sort
+
+Command Line Title: Find a file or folder with the specified name
+OS: linux(redhat)
+Command Line:
+find /path/to/directory -name **
+#**: an expression which determines what to find(like filename)
+Tags: linux, redhat, find, with name
